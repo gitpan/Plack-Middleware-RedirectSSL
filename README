@@ -1,0 +1,13 @@
+
+
+This archive contains the distribution Plack-Middleware-RedirectSSL,
+version 1.000:
+
+  force all requests to use in-/secure connections
+
+This software is copyright (c) 2012 by Aristotle Pagaltzis.
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
+
+
