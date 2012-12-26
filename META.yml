@@ -30,4 +30,4 @@ resources:
   bugtracker: http://github.com/ap/Plack-Middleware-RedirectSSL/issues
   homepage: http://github.com/ap/Plack-Middleware-RedirectSSL
   repository: git://github.com/ap/Plack-Middleware-RedirectSSL
-version: 1.000
+version: 1.001

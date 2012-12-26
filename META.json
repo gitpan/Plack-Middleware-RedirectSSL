@@ -52,6 +52,6 @@
          "url" : "git://github.com/ap/Plack-Middleware-RedirectSSL"
       }
    },
-   "version" : "1.000"
+   "version" : "1.001"
 }
 

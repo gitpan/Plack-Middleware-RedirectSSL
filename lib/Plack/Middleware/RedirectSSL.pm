@@ -1,6 +1,6 @@
 package Plack::Middleware::RedirectSSL;
 {
-  $Plack::Middleware::RedirectSSL::VERSION = '1.000';
+  $Plack::Middleware::RedirectSSL::VERSION = '1.001';
 }
 use 5.010;
 use strict;
@@ -43,7 +43,7 @@ Plack::Middleware::RedirectSSL - force all requests to use in-/secure connection
 
 =head1 VERSION
 
-version 1.000
+version 1.001
 
 =head1 SYNOPSIS
 
@@ -75,7 +75,7 @@ be redirected to plain C<http>.
 =head1 BUGS
 
 Probably that it does not (yet?) support
-RFCE<nsbp>6797 (HTTP Strict Transport Security (HSTS)).
+RFCE<nbsp>6797 (HTTP Strict Transport Security (HSTS)).
 
 =head1 AUTHOR
 
