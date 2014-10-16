@@ -1,5 +1,5 @@
 package Plack::Middleware::RedirectSSL;
-$Plack::Middleware::RedirectSSL::VERSION = '1.100';
+$Plack::Middleware::RedirectSSL::VERSION = '1.101';
 use 5.010;
 use strict;
 use parent 'Plack::Middleware';
@@ -11,7 +11,7 @@ use Plack::Util::Accessor qw( ssl hsts );
 use Plack::Request ();
 
 #                           seconds minutes hours days weeks
-sub DEFAULT_STS_MAXAGE () { 60    * 60    * 24  * 7  * 6 }
+sub DEFAULT_STS_MAXAGE () { 60    * 60    * 24  * 7  * 26 }
 
 sub call {
 	my $self = shift;
@@ -54,7 +54,7 @@ Plack::Middleware::RedirectSSL - force all requests to use in-/secure connection
 
 =head1 VERSION
 
-version 1.100
+version 1.101
 
 =head1 SYNOPSIS
 

@@ -1,7 +1,7 @@
 
 
 This archive contains the distribution Plack-Middleware-RedirectSSL,
-version 1.100:
+version 1.101:
 
   force all requests to use in-/secure connections
 
